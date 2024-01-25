@@ -1,0 +1,4 @@
+./githubapi-get.sh $GITHUBTOKEN /repos/SeleniumHQ/selenium/actions/workflows > selenium_workflows.json
+
+ List all workflows that SeleniumHQ/selenium repo has
+
