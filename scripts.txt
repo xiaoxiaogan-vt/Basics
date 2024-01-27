@@ -1,4 +1,13 @@
-./githubapi-get.sh $GITHUBTOKEN /repos/SeleniumHQ/selenium/actions/workflows > selenium_workflows.json
+Query1:
 
- List all workflows that SeleniumHQ/selenium repo has
+./githubapi-get.sh $GITHUBTOKEN /repos/SeleniumHQ/selenium/actions/workflows > selenium_repo_workflows.json
 
+Description:
+List all workflows that SeleniumHQ/selenium repo has, save result to selenium_repo_workflows.json
+
+Query2:
+
+./githubapi-get.sh $GITHUBTOKEN /repos/SeleniumHQ/selenium/issues | grep '"title":' > selenium_repo_issue_titles.json
+
+Description:
+Lists the titles for all of the open issues for the Selenium repo, save result to selenium_repo_issue_titles.json

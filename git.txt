@@ -8,7 +8,7 @@
  This commit is updating the German translation of Git v.2.31.0
 
 5) What is the name of the first file listed that changed between versions 2.31.0 and 2.31.1?''
-        /Documentation/config.txt
+       /Documentation/RelNotes/2.31.1.txt
 
 6) How many total branches are there for the git repository?
- 7, includimng origin/master
+ 7, 1 local (master), 6 remote
